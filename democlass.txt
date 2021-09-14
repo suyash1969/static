@@ -1,0 +1,18 @@
+public class blockdemo {
+    {
+        System.out.println("instance block");
+    }
+    static{
+        System.out.println("static block");
+
+    }
+    blockdemo()
+    {
+        System.out.println("inside constructor");
+    }
+    public static void main(String args[]) {
+        System.out.println("main method");
+        blockdemo ob=new blockdemo();
+        
+    }
+}
